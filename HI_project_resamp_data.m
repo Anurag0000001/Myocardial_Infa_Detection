@@ -5,6 +5,7 @@ resamp_data = 'D:\HI_Data_Separate\MI_New\MI_cut';
 file_names = dir([data_dir filesep '*.mat']); 
 num = length(file_names)
 num2 = length(file_names);
+num3 = length(file_names);
 for aa=1:num
     name_1 = file_names(aa).name;
     data = load([data_dir filesep name_1]);
